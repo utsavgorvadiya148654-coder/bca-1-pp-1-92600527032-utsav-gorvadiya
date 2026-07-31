@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int x,y;
+	clrscr();
+	printf("\n entet any number:");
+	scanf("%d",&x);
+	y= x % 2;
+	if(x>0)
+	{
+	printf("\n number is positive");
+	}
+	else
+
+	{
+	printf("\n number is nagative");
+	}
+	getch();
+
+}
