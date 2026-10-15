@@ -1,26 +1,13 @@
-//wap to display numder using loop
-#include<stdio.h>
-#include<conio.h>
+// 1. Write a program that Print 1 2 3 4 .... 10
 
-void main()
-{	int i;
-	clrscr();
+#include <stdio.h>
+#include <conio.h>
 
-	for(i=1;i<=10;i++)
-	{
-		printf("  %d",i);
-	}
-	printf("\n");
-	for(i=1;i<=10;i++)
-	{
-		printf("  %d",i*i);
-	}
-
-	 printf("\n");
-	for(i=1;i<=10;i++)
-       {
-	printf("  %d",i*i*i);
-       }
-	 getch();
-
+void main() {
+    int i;
+    clrscr();
+    for (i = 1; i <= 10; i++) {
+        printf("%d ", i);
+    }
+    getch();
 }

@@ -1,19 +1,17 @@
-//wap to display numder using loop
-#include<stdio.h>
-#include<conio.h>
+// 3. Write a program that Print 1 3 5 7 ... N
 
-void main()
-{
-	int i,n;
-	clrscr();
+#include <stdio.h>
+#include <conio.h>
 
-	printf("\n enter value of n:");
-	scanf("%d",&n);
-
-	for (i=1;i<=n;i++)
-	{
-	    printf(" %d",i);
-	}
-
-	getch();
+void main() {
+    int i,n;
+    clrscr();
+    printf("Enter Endpoint Number: ");
+    scanf("%d",&n);
+    for (i = 1; i <= n; i++) {
+        if(i%2!=0){
+            printf("%d ", i);
+        }
+    }
+    getch();
 }
